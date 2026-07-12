@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Like_Image from "../../public/HomePagesImages/LikeLogo.png"
 import Ruppe_Image from "../../public/HomePagesImages/RuppesLogo.png"
 import Car_Parking_Image from "../../public/HomePagesImages/carParkingLogo.png"
 import Home_Page_Image from "../../public/HomePagesImages/homePageImage.webp"
 import SeamlessExperience from "../../public/HomePagesImages/SeamlessExperience.png"
 import Whereever_whenever from "../../public/HomePagesImages/Whereever_Whenever.png"
-import Piece_of_Mind from "../../Public/HomePagesImages/PieceOfMind.png"
-import AppDownloadIcon from "../../Public/HomePagesImages/PhoneImagesLogo.png"
+import Piece_of_Mind from "../../public/HomePagesImages/PieceOfMind.png"
+import AppDownloadIcon from "../../public/HomePagesImages/PhoneImagesLogo.png"
 import ParkingData from './ParkingData'
 import { Link } from 'react-router-dom'
 
@@ -102,7 +102,7 @@ const Home = () => {
           {/* Trust Bar Section */}
           <section className='hidden md:grid grid-cols-3 items-center gap-2.5 mt-5'>
             {TrustBarSection?.map((item, index) => (
-              <div key={index} className='flex bg-white shadow-md rounded-md items-center p-1.5 shadow-sm shadow-blue-200'>
+              <div key={index} className='flex bg-white  rounded-md items-center p-1.5 shadow-sm shadow-blue-200'>
                 <img src={item.image} className='w-10' loading='lazy' decoding='async' />
                 <h1 className='ms-1'>{item.title}</h1>
               </div>
@@ -147,7 +147,7 @@ const Home = () => {
         </section>
 
                   <div className="lg:w-1/2 relative">
-            <div className="relative z-10 rounded-[40px] overflow-hidden shadow-2xl border-8 border-white shadow-blue-300 shadow-md">
+            <div className="relative z-10 rounded-[40px] overflow-hidden  border-8 border-white shadow-blue-300 shadow-md">
               <img 
                 src={Home_Page_Image} 
                 alt="Modern Parking Management" 
