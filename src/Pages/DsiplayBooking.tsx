@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
-import { LayoutDashboard, Car, Calendar, LogOut, User as UserIcon, MapPin, Clock } from 'lucide-react';
+import { LayoutDashboard, Car, Calendar, LogOut,  MapPin, Clock } from 'lucide-react';
 
 // 1. Updated Interface to match your Mongoose Schema
 interface Booking {
