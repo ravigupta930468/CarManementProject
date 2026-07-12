@@ -1,6 +1,6 @@
 // BookingModal.tsx - Updated with vehicle name input
 import { useState } from "react"
-import toast from "react-hot-toast"
+import {toast,Toaster} from "react-hot-toast"
 
 interface FetchDataType {
   state: string
@@ -137,6 +137,7 @@ const BookingModal = ({ isOpen, onClose, locationData }: BookingModalProps) => {
 
   return (
     <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-50 p-4 backdrop-blur-sm">
+      <Toaster position='top-center'/>
       <div className="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-black text-gray-800">Book Parking Slot</h2>

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 
 const Header = () => {
-  const [userName, setName] = useState<string | null>('')
+  
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false)
   const navigate = useNavigate()
 
@@ -13,11 +13,9 @@ const Header = () => {
     const token = localStorage.getItem('token')
     
     if (name && token) {
-      setName(name)
       setIsLoggedIn(true)
     } else {
       setIsLoggedIn(false)
-      setName('')
     }
   }
 
@@ -38,7 +36,6 @@ const Header = () => {
     localStorage.removeItem('token')
     
     // Update state
-    setName('')
     setIsLoggedIn(false)
     
     // Dispatch custom event to notify other components
@@ -62,6 +59,7 @@ const Header = () => {
 
       <div className='flex  justify-end gap-2.5'>
         <ul className='flex flex-wrap gap-2.5 font-semibold text-blue-600 text-center items-center p-2'>
+          <Link to="/BookingSlot" className='p-1.5'>Booking Slot </Link>
           <Link to ="/about" className='p-1.5'>About</Link>
          
           <Link to ='/businessPage' className='p-1.5'>Business</Link>
@@ -75,12 +73,15 @@ const Header = () => {
             </>
           ) : (
             /* Show Logout only if logged in */
+            <>
             <button 
               onClick={handleLogout}
               className='p-1.5 bg-red-500 text-white rounded-lg px-4 hover:bg-red-600 transition'
             >
               Logout
             </button>
+           
+            </>
           )}
         </ul>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import toast from 'react-hot-toast'
+import {toast, Toaster } from 'react-hot-toast'
+
 import { useNavigate } from 'react-router-dom'
 
 interface userNameHandle_Type {
@@ -47,6 +48,7 @@ const onSubmitData = async (data: userNameHandle_Type) => {
 
   return (
     <div className='min-h-screen bg-gray-200 flex items-center mx-auto justify-center'>
+      <Toaster position='top-center'/>
       <div className='bg-white p-8 rounded-2xl w-full max-w-md'>
         <h2 className='text-2xl font-bold text-blue-500 text-center'>
           Login
