@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import AboutUsWallPaper from "../..//Public/Images/AboutUs/AboutUsWallpapre.png";
+import AboutUsWallPaper from "../../public/Images/AboutUs/AboutUsWallpapre.png";
 import AppLogo from "../../public/Images/AboutUs/AppLogo.png"
 import AppStore from "../../public/Images/AboutUs/appstore_bt-Bw36Ky4f.svg"
 import googleStore from "../../public/Images/AboutUs/googleplay_bt-BT1q52l8.svg"
