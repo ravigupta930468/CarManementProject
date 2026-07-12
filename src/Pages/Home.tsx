@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import Like_Image from "../assets/HomePagesImages/LikeLogo.png"
-import Ruppe_Image from "../assets/HomePagesImages/RuppesLogo.png"
-import Car_Parking_Image from "../assets/HomePagesImages/carParkingLogo.png"
-import Home_Page_Image from "../assets/HomePagesImages/homePageImage.webp"
-import SeamlessExperience from "../assets/HomePagesImages/SeamlessExperience.png"
-import Whereever_whenever from "../assets/HomePagesImages/Whereever_Whenever.png"
-import Piece_of_Mind from "../assets/HomePagesImages/PieceOfMind.png"
-import AppDownloadIcon from "../assets/HomePagesImages/PhoneImagesLogo.png"
+import Like_Image from "../../public/HomePagesImages/LikeLogo.png"
+import Ruppe_Image from "../../public/HomePagesImages/RuppesLogo.png"
+import Car_Parking_Image from "../../public/HomePagesImages/carParkingLogo.png"
+import Home_Page_Image from "../../public/HomePagesImages/homePageImage.webp"
+import SeamlessExperience from "../../public/HomePagesImages/SeamlessExperience.png"
+import Whereever_whenever from "../../public/HomePagesImages/Whereever_Whenever.png"
+import Piece_of_Mind from "../../Public/HomePagesImages/PieceOfMind.png"
+import AppDownloadIcon from "../../Public/HomePagesImages/PhoneImagesLogo.png"
 import ParkingData from './ParkingData'
 import { Link } from 'react-router-dom'
 

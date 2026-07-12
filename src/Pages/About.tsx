@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import AboutUsWallPaper from "../assets/AboutUs/AboutUsWallpapre.png";
-import AppLogo from "../assets/AboutUs/AppLogo.png"
-import AppStore from "../assets/AboutUs/appstore_bt-Bw36Ky4f.svg"
-import googleStore from "../assets/AboutUs/googleplay_bt-BT1q52l8.svg"
+import AboutUsWallPaper from "../..//Public/Images/AboutUs/AboutUsWallpapre.png";
+import AppLogo from "../../public/Images/AboutUs/AppLogo.png"
+import AppStore from "../../public/Images/AboutUs/appstore_bt-Bw36Ky4f.svg"
+import googleStore from "../../public/Images/AboutUs/googleplay_bt-BT1q52l8.svg"
 
 const About = () => {
   const navigate = useNavigate();

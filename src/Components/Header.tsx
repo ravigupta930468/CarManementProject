@@ -1,5 +1,5 @@
 import { Link, Links, useNavigate } from 'react-router-dom'
-import companyLogo from '..//assets/CompanyLogo/CompanyLogo.png'
+import companyLogo from '../../public/CompanyLogo/CompanyLogo.png'
 import { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 

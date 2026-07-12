@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaChartBar, FaShieldAlt, FaGlobe, FaArrowRight, FaHandshake, FaUserTie } from 'react-icons/fa';
-import BusinessHelp from "../assets/busniesHelp.jpg"
+import BusinessHelp from "../../public/busniesHelp.jpg"
 
 const BusinessPage = () => {
   return (
